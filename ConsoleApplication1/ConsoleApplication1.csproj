@@ -37,6 +37,9 @@
       <HintPath>packages\Clojure.1.8.0\lib\net40\Clojure.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="clojure.core.server.clj">
+      <HintPath>..\..\..\..\ClojureClr\clojure.core.server.clj.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Dynamic, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <HintPath>packages\Clojure.1.8.0\lib\net40\Microsoft.Dynamic.dll</HintPath>
       <Private>True</Private>
