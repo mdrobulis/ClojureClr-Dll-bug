@@ -7,9 +7,9 @@ using clojure.clr.api;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var fn = Clojure.var("clojure.core", "println");
             fn.invoke("Hello from Clojure");
